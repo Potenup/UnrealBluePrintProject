@@ -1,0 +1,20 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "1.0",
+  "FriendlyName": "Custom RawInput",
+  "Description": "Custom RawInput plugin for DualSense support.",
+  "Category": "Input Devices",
+  "CreatedBy": "YourNameOrTeam",
+  "CreatedByURL": "https://yourwebsite.com",
+  "EnabledByDefault": true,
+
+  "Modules": [
+    {
+      "Name": "RawInput",
+      "Type": "Runtime",
+      "LoadingPhase": "Default",
+      "PlatformAllowList": [ "Win64" ]
+    }
+  ]
+}
